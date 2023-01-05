@@ -1,0 +1,18 @@
+
+hr{
+    border: none;
+    background-color: green;
+    height: 4px;
+    width: 200px;
+    margin: 5px auto;
+}
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: fill;
+    filter: brightness(0.6);
+}
