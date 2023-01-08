@@ -11,19 +11,31 @@
     <title>NoobAngo</title>
 </head>
 <body>
-    <!--colocar navbar completa-->
     <!--Cabeçalho-->
-    <nav class="navbar bg-dark">
-        <div class="container-fluid justify-content-center">
-          <a class="navbar-brand text-white" href="#">
-            <img src="img/NoobLogo.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
-            NoobAngo
-          </a>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <div class=" display-flex">
+                <a class="navbar-brand text-white" href="#">
+                  <img src="img/NoobLogo.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+                    NoobAngo
+                </a>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="consoles.html">Consoles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="acessorios.html">Acessórios</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
         </div>
-        <hr>
-        <p class="h2 text-justify text-white">Na NoobAngo, você encontra os melhores jogos eletrónicos ao melhor preço do mercado!</p>
-    </nav>
-
+      </nav>
     <!--Carrossel-->
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -63,10 +75,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    <div>    
-    <!--<br>
-    <p class="h2 text-justify">Na NoobAngo, você encontra os melhores jogos eletrónicos ao melhor preço do mercado!</p>
-    <br>-->  
+    <div>     
     <br> 
 
     <!--Jogos-->
@@ -76,10 +85,10 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/GOW-Ragnarok.png" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
                         <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
+                        <h5 class="card-title">48,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
                           </div>
@@ -88,10 +97,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/Horizon.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/Horizon.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
                         <p class="card-text">Horizon</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
+                        <h5 class="card-title">30,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
                           </div>
@@ -100,7 +109,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/RDR2.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/RDR2.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
                         <p class="card-text">Red Dead Redeption II</p>
                         <h5 class="card-title">50,000.00 AKZ</h5>
@@ -112,9 +121,9 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/RDR2.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/twd.png" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
-                        <p class="card-text">Red Dead Redeption II</p>
+                        <p class="card-text">The Walking Dead</p>
                         <h5 class="card-title">50,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
@@ -124,9 +133,45 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/RDR2.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/Avengers.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
-                        <p class="card-text">Red Dead Redeption II</p>
+                        <p class="card-text">Marvel Avengers</p>
+                        <h5 class="card-title">25,000.00 AKZ</h5>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 mt-3">
+                <div class="card">
+                    <img src="img/Capas/Just-Dance2020.jpg" alt="imagem" class="card-img-top cp-img">
+                    <div class="card-body">
+                        <p class="card-text">Just Dance 2020</p>
+                        <h5 class="card-title">25,000.00 AKZ</h5>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 mt-3">
+                <div class="card">
+                    <img src="img/Capas/PES2020.jpg" alt="imagem" class="card-img-top cp-img">
+                    <div class="card-body">
+                        <p class="card-text">PES 2020</p>
+                        <h5 class="card-title">30,000.00 AKZ</h5>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 mt-3">
+                <div class="card">
+                    <img src="img/Capas/PS4 Far Cry 5.jpg" alt="imagem" class="card-img-top cp-img">
+                    <div class="card-body">
+                        <p class="card-text">Far Cry 5</p>
                         <h5 class="card-title">50,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
@@ -136,9 +181,21 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/RDR2.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/Spider-Man2018.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
-                        <p class="card-text">Red Dead Redeption II</p>
+                        <p class="card-text">Spider-Man 2018 </p>
+                        <h5 class="card-title">40,000.00 AKZ</h5>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2 mt-3">
+                <div class="card">
+                    <img src="img/Capas/tlou.png" alt="imagem" class="card-img-top cp-img">
+                    <div class="card-body">
+                        <p class="card-text">The Last of Us Part II</p>
                         <h5 class="card-title">50,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
@@ -148,9 +205,9 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/RDR2.jpg" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/MirrorEdge.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
-                        <p class="card-text">Red Dead Redeption II</p>
+                        <p class="card-text">Mirror´s Edge-Catalyst</p>
                         <h5 class="card-title">50,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
@@ -160,58 +217,10 @@
             </div>
             <div class="col-12 col-md-6 col-lg-2 mt-3">
                 <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
+                    <img src="img/Capas/SF.jpg" alt="imagem" class="card-img-top cp-img">
                     <div class="card-body">
-                        <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2 mt-3">
-                <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
-                    <div class="card-body">
-                        <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2 mt-3">
-                <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
-                    <div class="card-body">
-                        <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2 mt-3">
-                <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
-                    <div class="card-body">
-                        <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-2 mt-3">
-                <div class="card">
-                    <img src="img/Capas/GOW-Ragnarok.png" alt="GOW-Ragnarok" class="card-img-top">
-                    <div class="card-body">
-                        <p class="card-text">God Of War - Ragnarok</p>
-                        <h5 class="card-title">50,000.00 AKZ</h5>
+                        <p class="card-text">Street Fighter</p>
+                        <h5 class="card-title">20,000.00 AKZ</h5>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button class="btn btn-primary btn-sm me-md-2" type="button">Compar</button>
                           </div>
@@ -228,8 +237,8 @@
             <div class="row text-center text-md-start">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weigth-bold text-success">NoobAngo</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ipsam, cupiditate! Lorem ipsum dolor sit amet.</p>
+                    <p>A NoobAngo é uma loja de atrigos eletrónicos em Angola.
+                        Nosso objectivo é ajudar a ti, cliente, a dar um "Up" no seu setup gamer.</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-height-bold text-success">Produtos</h5>
@@ -254,9 +263,7 @@
                     <p>
                         <i class="fa-solid fa-phone"></i>  +244 931 423 396
                     </p>
-                    <p>
-                        <i class="fa-sharp fa-solid fa-house"></i>  Luanda, Angola
-                    </p>
+                    
                 </div>
                 <hr class="mb-4">
                 <div class="row justify-content-center">
